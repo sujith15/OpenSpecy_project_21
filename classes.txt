@@ -1,0 +1,6 @@
+-Node.js
+-React      (frontend framework)    
+-ReactDOM   (more react functionality)
+-Express    (for api building)
+-Multer     (for file uploading)
+-Cors       (for more file handling)
