@@ -1,6 +1,6 @@
 .navbar {
   background-color: black;
-  height: 130px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,14 +16,14 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 1500px;
+  /*max-width: 1500px;*/
 }
 
 .nav-logo {
   color: white;
   margin-left: 20px;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 2.5rem;
   flex-grow: 1;
   text-shadow: 2px 2px white;
   max-width: fit-content;
