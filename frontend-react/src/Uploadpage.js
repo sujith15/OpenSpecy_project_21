@@ -1,6 +1,7 @@
 import React from "react";
 import "./Uploadpage.css";
 import { useState } from "react";
+import axios from "axios";
 
 const Upload = () => {
   const [fileData, setFileData] = useState("");
@@ -17,9 +18,9 @@ const Upload = () => {
       url: "http://localhost:5001/upload",
       data: data,
     }).then((res) => {
-      if(window.confirm(res.data.message)) {
-        if(res.data.status) {
-          //get fuction will be here on implimentation 
+      if (window.confirm(res.data.message)) {
+        if (res.data.status) {
+          //get fuction will be here on implimentation
           window.location.reload();
         }
       }
