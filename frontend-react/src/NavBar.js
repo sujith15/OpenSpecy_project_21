@@ -24,7 +24,7 @@ const NavBar = () => {
             <NavLink
               exact
               to="/upload"
-              ctiveClassName="active "
+              activeClassName="active "
               className="nav-links"
             >
               <b> Upload File </b>
