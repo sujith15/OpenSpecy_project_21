@@ -33,4 +33,6 @@ app.post("/upload", upload.single("file"), async (req, res) => {
   }
 });
 
+app.use(express.static('public/graphs/'))
+
 app.listen(5001, () => console.log("Server Running on 5001..."));
