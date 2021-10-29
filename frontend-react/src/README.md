@@ -1,1 +1,1 @@
-
+The function in the file newGet.js is the final product for the third task. This function is proof of concept that we can use an API to move images from the backend to the front of the system using a Get API call. By running 'node newGet.js' with the backend running, the temporary image will be transferred from backend-nodejs/graphs to frontend-react/src/files under the name graph.jpg.
