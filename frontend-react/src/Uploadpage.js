@@ -12,6 +12,18 @@ const Upload = () => {
     e.preventDefault();
     const data = new FormData();
     data.append("file", fileData);
+    axios({
+      method: "POST",
+      url: "http://localhost:5001/upload",
+      data: data,
+    }).then((res) => {
+      if(window.confirm(res.data.message)) {
+        if(res.data.status) {
+          //get fuction will be here on implimentation 
+          window.location.reload();
+        }
+      }
+    });
   };
 
   return (
