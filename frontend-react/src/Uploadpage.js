@@ -7,11 +7,6 @@ const Upload = () => {
   const [fileData, setFileData] = useState("");
   const getFile = (e) => {
     setFileData(e.target.files[0]);
-    const file = e.target.files[0];
-    if (file.size > 10000) {
-      window.alert("Maximum file size uploaded");
-      return false;
-    }
   };
 
   const uploadFile = (e) => {
@@ -61,19 +56,6 @@ const Upload = () => {
             value="Upload"
           />
         </form>
-      </div>
-      <br></br>
-      <div>
-        <a
-          id="downloadData4"
-          class="btn btn-primary"
-          href="testdata.csv"
-          target="_blank"
-          download=""
-          aria-live="polite"
-        >
-          Sample File
-        </a>
       </div>
       <br></br>
       <div
