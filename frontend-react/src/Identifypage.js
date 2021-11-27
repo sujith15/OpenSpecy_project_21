@@ -1,6 +1,13 @@
 import React from "react";
 import "./Identifypage.css";
 import { useState } from "react";
+import { withStyles } from "@material-ui/core/styles";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import Radio from "@material-ui/core/Radio";
+import Button from "@material-ui/core/Button";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormControl from "@material-ui/core/FormControl";
+import { FormLabel } from "@material-ui/core";
 
 const Identify = () => {
   const [fileData, setFileData] = useState("");
@@ -19,6 +26,20 @@ const Identify = () => {
       <br></br>
       <h4>Identify Spectrum Using the Reference Library</h4>
       <br></br>{" "}
+      <div>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">Type</FormLabel>
+          <RadioGroup
+            aria-label="gender"
+            name="controlled-radio-buttons-group"
+            // value={value}
+            // onChange={handleChange}
+          >
+            <FormControlLabel value="Raman" control={<Radio />} label="Raman" />
+            <FormControlLabel value="FTIR" control={<Radio />} label="FTIR" />
+          </RadioGroup>
+        </FormControl>
+      </div>
     </div>
   );
 };
