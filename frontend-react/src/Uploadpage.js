@@ -9,7 +9,7 @@ const Upload = () => {
     setFileData(e.target.files[0]);
     const file = e.target.files[0];
     if (file.size > 10000) {
-      window.alert("Please upload a file smaller than 10 MB");
+      window.alert("Maximum file size uploaded");
       return false;
     }
   };
