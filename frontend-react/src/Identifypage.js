@@ -38,9 +38,17 @@ const Identify = () => {
           }}
         >
           <FormControl component="fieldset">
-            <FormLabel component="legend">Type</FormLabel>
+            <FormLabel
+              component="legend"
+              style={{
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              Type
+            </FormLabel>
             <RadioGroup
-              aria-label="gender"
+              aria-label="Type"
               name="controlled-radio-buttons-group"
               // value={value}
               // onChange={handleChange}
@@ -60,9 +68,17 @@ const Identify = () => {
           }}
         >
           <FormControl component="fieldset">
-            <FormLabel component="legend">Analysis</FormLabel>
+            <FormLabel
+              component="legend"
+              style={{
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              Analysis
+            </FormLabel>
             <RadioGroup
-              aria-label="gender"
+              aria-label="Analysis"
               name="controlled-radio-buttons-group"
               // value={value}
               // onChange={handleChange}
@@ -76,6 +92,36 @@ const Identify = () => {
                 value="Uploaded"
                 control={<Radio />}
                 label="Uploaded"
+              />
+            </RadioGroup>
+          </FormControl>
+        </div>
+        <div
+          style={{
+            padding: "0rem 1rem 1rem",
+          }}
+        >
+          <FormControl component="fieldset">
+            <FormLabel
+              component="legend"
+              style={{
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              Region
+            </FormLabel>
+            <RadioGroup
+              aria-label="Region"
+              name="controlled-radio-buttons-group"
+              // value={value}
+              // onChange={handleChange}
+            >
+              <FormControlLabel value="Full" control={<Radio />} label="Full" />
+              <FormControlLabel
+                value="Peaks"
+                control={<Radio />}
+                label="Peaks"
               />
             </RadioGroup>
           </FormControl>
