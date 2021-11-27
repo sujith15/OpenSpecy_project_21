@@ -50,6 +50,7 @@ const Identify = () => {
             <RadioGroup
               aria-label="Type"
               name="controlled-radio-buttons-group"
+              defaultValue="Raman"
               // value={value}
               // onChange={handleChange}
             >
@@ -80,6 +81,7 @@ const Identify = () => {
             <RadioGroup
               aria-label="Analysis"
               name="controlled-radio-buttons-group"
+              defaultValue="Processed"
               // value={value}
               // onChange={handleChange}
             >
@@ -114,6 +116,7 @@ const Identify = () => {
             <RadioGroup
               aria-label="Region"
               name="controlled-radio-buttons-group"
+              defaultValue="Full"
               // value={value}
               // onChange={handleChange}
             >
