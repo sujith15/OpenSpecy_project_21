@@ -93,16 +93,7 @@ const Upload = () => {
           }}
         >
           <h4 id="placeholder1">Upload some data to get started...</h4>
-          <img
-            id="graphPhoto"
-            src="graph.jpg"
-            style={{ width: "90%", height: "75%" }}
-            onError={(e) => {
-              e.target.onerror = null;
-              e.target.src = "logo.png";
-            }}
-            alt=""
-          />
+
           <div
             style={{
               width: "100%",
