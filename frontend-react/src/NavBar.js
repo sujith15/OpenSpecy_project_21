@@ -30,6 +30,16 @@ const NavBar = () => {
               <b> Upload File </b>
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/identify"
+              activeClassName="active "
+              className="nav-links"
+            >
+              <b> Identify Spectrum </b>
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
