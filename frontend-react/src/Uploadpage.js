@@ -63,6 +63,19 @@ const Upload = () => {
         </form>
       </div>
       <br></br>
+      <div>
+        <a
+          id="downloadData4"
+          class="btn btn-primary"
+          href="testdata.csv"
+          target="_blank"
+          download=""
+          aria-live="polite"
+        >
+          Sample File
+        </a>
+      </div>
+      <br></br>
       <div
         style={{
           display: "flex",
