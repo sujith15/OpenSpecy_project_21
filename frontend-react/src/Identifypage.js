@@ -130,6 +130,25 @@ const Identify = () => {
           </FormControl>
         </div>
       </div>
+      <div
+        style={{
+          border: "solid black",
+          backgroundColor: "white",
+          padding: "2rem",
+          width: "80%",
+          textAlign: "center",
+        }}
+      >
+        <h4 id="placeholder1">Upload some data to get started...</h4>
+
+        <div
+          style={{
+            width: "100%",
+            height: "30rem",
+            visibility: "hidden",
+          }}
+        ></div>
+      </div>
     </div>
   );
 };
