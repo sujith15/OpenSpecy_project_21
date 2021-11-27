@@ -26,19 +26,60 @@ const Identify = () => {
       <br></br>
       <h4>Identify Spectrum Using the Reference Library</h4>
       <br></br>{" "}
-      <div>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">Type</FormLabel>
-          <RadioGroup
-            aria-label="gender"
-            name="controlled-radio-buttons-group"
-            // value={value}
-            // onChange={handleChange}
-          >
-            <FormControlLabel value="Raman" control={<Radio />} label="Raman" />
-            <FormControlLabel value="FTIR" control={<Radio />} label="FTIR" />
-          </RadioGroup>
-        </FormControl>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+        }}
+      >
+        <div
+          style={{
+            padding: "0rem 1rem 1rem",
+          }}
+        >
+          <FormControl component="fieldset">
+            <FormLabel component="legend">Type</FormLabel>
+            <RadioGroup
+              aria-label="gender"
+              name="controlled-radio-buttons-group"
+              // value={value}
+              // onChange={handleChange}
+            >
+              <FormControlLabel
+                value="Raman"
+                control={<Radio />}
+                label="Raman"
+              />
+              <FormControlLabel value="FTIR" control={<Radio />} label="FTIR" />
+            </RadioGroup>
+          </FormControl>
+        </div>
+        <div
+          style={{
+            padding: "0rem 1rem 1rem",
+          }}
+        >
+          <FormControl component="fieldset">
+            <FormLabel component="legend">Analysis</FormLabel>
+            <RadioGroup
+              aria-label="gender"
+              name="controlled-radio-buttons-group"
+              // value={value}
+              // onChange={handleChange}
+            >
+              <FormControlLabel
+                value="Processed"
+                control={<Radio />}
+                label="Processed"
+              />
+              <FormControlLabel
+                value="Uploaded"
+                control={<Radio />}
+                label="Uploaded"
+              />
+            </RadioGroup>
+          </FormControl>
+        </div>
       </div>
     </div>
   );
