@@ -7,6 +7,11 @@ const Upload = () => {
   const [fileData, setFileData] = useState("");
   const getFile = (e) => {
     setFileData(e.target.files[0]);
+    const file = e.target.files[0];
+    if (file.size > 10000) {
+      window.alert("Please upload a file smaller than 10 MB");
+      return false;
+    }
   };
 
   const uploadFile = (e) => {
@@ -78,8 +83,11 @@ const Upload = () => {
           <img
             id="graphPhoto"
             src="graph.jpg"
-            style = {{width: "90%", height: "75%"}}
-            onError={(e)=>{e.target.onerror = null; e.target.src="logo.png"}}
+            style={{ width: "90%", height: "75%" }}
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "logo.png";
+            }}
             alt=""
           />
           <div
@@ -94,6 +102,5 @@ const Upload = () => {
     </div>
   );
 };
-
 
 export default Upload;
