@@ -212,7 +212,6 @@ const Mainpage = () => {
         </p>
 
         <div>
-
           <a
             id="downloadData4"
             class="btn btn-primary"
