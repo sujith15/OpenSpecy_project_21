@@ -72,6 +72,75 @@ const Partner = () => {
           </tbody>
         </Table>
       </div>
+      <br></br>
+      <div style={{ display: "flex" }}>
+        <div style={{ flex: "33.33%", padding: "5px" }}>
+          <div style={{ textAlign: "center" }}>
+            <h3>Donate Cash</h3>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <img
+              src="https://p.turbosquid.com/ts-thumb/rX/Wm1eqB/t5/currencysymbolsgoldensetc4dmodel000/jpg/1613802168/300x300/sharp_fit_q85/a31625492ce9c8009ab3e4281ad752006e1163ec/currencysymbolsgoldensetc4dmodel000.jpg"
+              alt="Snow"
+              style={{ width: "80%" }}
+            ></img>
+          </div>
+          <br></br>
+          <div style={{ textAlign: "center" }}>
+            <a
+              href="https://www.paypal.com/donate/?cmd=_donations&business=wincowger@gmail.com&lc=US&item_name=Donation+to+Open+Specy&no_note=0&cn=&currency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              Donate
+            </a>
+          </div>
+        </div>
+        <div style={{ flex: "33.33%", padding: "5px" }}>
+          <div style={{ textAlign: "center" }}>
+            <h3>Buy From Swag Store</h3>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <img
+              src="https://image.spreadshirtmedia.com/image-server/v1/products/T813A823PA3132PT17X42Y46D1038541132FS4033/views/1,width=650,height=650,appearanceId=823/updated-logo-for-open-specy-designed-by-alex-mcgoran.jpg"
+              alt="Forest"
+              style={{ width: "80%" }}
+            ></img>
+          </div>
+          <br></br>
+          <div style={{ textAlign: "center" }}>
+            <a
+              href="https://openspecy.myspreadshop.com/all"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              Shop
+            </a>
+          </div>
+        </div>
+        <div style={{ flex: "33.33%", padding: "5px" }}>
+          <div style={{ textAlign: "center" }}>
+            <h3>Contribute time</h3>
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <img
+              src="https://health.sunnybrook.ca/wp-content/uploads/2020/02/healthy-hands-810x424.jpg"
+              alt="Mountains"
+              style={{ width: "80%" }}
+            ></img>
+          </div>
+          <br></br>
+          <div style={{ textAlign: "center" }}>
+            <a
+              href="https://docs.google.com/document/d/1SaFgAYKsLbMSYdJClR5s42TyGmPRWihLQcf5zun_yfo/edit#heading=h.41l4zitx7fsg"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              Guidelines
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
