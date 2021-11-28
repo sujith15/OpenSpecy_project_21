@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
 import { Table } from "react-bootstrap";
 import "./Mainpage.css";
 
@@ -21,12 +20,6 @@ const Partner = () => {
       <br></br>
       <h4>Help us reach our goal of revolutionizing spectroscopy.</h4>
       <br></br> <h6>Progress (current staus selected)</h6>
-      {/* <table
-        style={{
-          padding: "0rem 0rem 0rem",
-          width: "100%",
-        }}
-      > */}
       <div class="setfontsize">
         <Table striped bordered hover size="sm" style={{ width: "75%" }}>
           <thead style={{ textAlign: "center" }}>
