@@ -2,16 +2,23 @@ import React from "react";
 import "./Uploadpage.css";
 import { useState } from "react";
 import axios from "axios";
+import Button from "@material-ui/core/Button";
 
 const Upload = () => {
   const [fileData, setFileData] = useState("");
+  const [fileName, setFileName] = useState("");
   const getFile = (e) => {
     setFileData(e.target.files[0]);
+
     const file = e.target.files[0];
-    if (file.size > 100000) {
+
+    console.log(file);
+
+    if (file.size > 10000000) {
       window.alert("Please upload a file smaller than 10 MB");
       return false;
     }
+    setFileName(file.name);
   };
 
   const uploadFile = (e) => {
@@ -47,13 +54,27 @@ const Upload = () => {
         <h5>Choose .csv (preferred), .asp, .jdx, .spc, .spa, or .0 File</h5>
         <br></br>
         <form onSubmit={uploadFile}>
-          <input
+          {/* <input
             type="file"
             name="file"
             accept=".csv,.asp,.spc,.jdx,.spa,.0"
             onChange={getFile}
             required
-          />
+            // value={""}
+          /> */}
+
+          <Button variant="contained" component="label">
+            Choose File
+            <input
+              type="file"
+              hidden
+              onChange={getFile}
+              accept=".csv,.asp,.spc,.jdx,.spa,.0"
+            />
+          </Button>
+
+          <label className={"p-3"}>{fileName}</label>
+
           <input
             class="btn btn-primary"
             type="submit"
