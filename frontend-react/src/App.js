@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -9,7 +8,7 @@ import Identify from "./Identifypage";
 import Partner from "./Partnerpage";
 import NavBar from "./NavBar";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <NavBar />
@@ -24,6 +23,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

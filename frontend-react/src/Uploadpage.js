@@ -3,7 +3,6 @@ import "./Uploadpage.css";
 import { useState } from "react";
 import axios from "axios";
 
-
 const Upload = () => {
   const [fileData, setFileData] = useState("");
   const getFile = (e) => {
@@ -14,14 +13,18 @@ const Upload = () => {
     e.preventDefault();
     const data = new FormData();
     data.append("file", fileData);
-    // axios({
-    //   method: "POST",
-    //   url: "http://localhost:5001/upload",
-    //   data: data,
-    // }).then((res) => {
-    //   alert(res.data.message);
-    // });
-
+    axios({
+      method: "POST",
+      url: "http://localhost:5001/upload",
+      data: data,
+    }).then((res) => {
+      if (window.confirm(res.data.message)) {
+        if (res.data.status) {
+          //get fuction will be here on implimentation
+          window.location.reload();
+        }
+      }
+    });
   };
 
   return (
@@ -54,34 +57,35 @@ const Upload = () => {
           />
         </form>
       </div>
-
       <br></br>
-        <div style={{
+      <div
+        style={{
           display: "flex",
           justifyContent: "center",
           alignContent: "center",
-        }}>
-          <div style={{
+        }}
+      >
+        <div
+          style={{
             border: "solid black",
             backgroundColor: "white",
             padding: "2rem",
             width: "80%",
-            textAlign: "center"
-          }}>
-            <h4 id="placeholder1">Upload some data to get started...</h4>
-            <div style={{
+            textAlign: "center",
+          }}
+        >
+          <h4 id="placeholder1">Upload some data to get started...</h4>
+          <div
+            style={{
               width: "100%",
-              height: "30rem", 
-              visibility: "hidden"
+              height: "30rem",
+              visibility: "hidden",
             }}
-            >
-            </div>
-          </div>
+          ></div>
         </div>
-
+      </div>
     </div>
   );
-
 };
 
 export default Upload;
