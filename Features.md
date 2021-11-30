@@ -1,13 +1,12 @@
-FRONT END:
--main page where users can find information about the OpenSpecy Project
-(the above point is simply a replication of the r shiny version of the website: https://wincowger.shinyapps.io/OpenSpecy/)
--upload page where user can select a file to upload
--message popup that confirms user has uploaded a file to the backend
--api that sends data to a backend for processing
--api that retrieves processed data from backend
--page that displays the processed data to the user
+Features for Sprint 1:
+-front page with information from OpenSpet template website
+-upload file functionality (retrieve file from user system and post to backend server)
+-backend with get function for possible ML model
 
-BACK END:
--recieves files from front end
--processes files using machine learning model
--returns a file to the front end containing processed information
+Features for Sprint 2:
+-added file processing to make sure file size if correct and option to select data type for server side processing
+-added page for identifying spectrum type
+-added "Partner With Us" page under menu option to attract potention donors
+
+final feature (special case)
+based on the guidance of the Code4Sac team from california, we created slightly trained a ML model which will be the main functionality of the system. we cannot test using this using travis ci in tandem with our main program, as the model uses resources directly from google colab. the model has been trained to over 50% accuracy initially.
