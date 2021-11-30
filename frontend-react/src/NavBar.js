@@ -10,6 +10,9 @@ const NavBar = () => {
           OPEN SPECY
         </NavLink>
         <ul className="nav-menu">
+          <button className="button">
+          Light/Dark Mode
+          </button>
           <li className="nav-item">
             <NavLink
               exact
