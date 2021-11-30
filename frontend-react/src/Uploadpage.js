@@ -3,13 +3,6 @@ import "./Uploadpage.css";
 import { useState } from "react";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
-import Select from 'react-select';
-
-const options = [
-  { value: 'FTIR', label: 'FTIR' },
-  { value: 'RAMAN', label: 'RAMAN' },
-  { value: 'MISC', label: 'MISC' }
-]
 
 const Upload = () => {
   const [fileData, setFileData] = useState("");
@@ -123,7 +116,7 @@ const Upload = () => {
           }}
         >
           <h4 id="placeholder1">Upload some data to get started...</h4>
-          
+
           <div
             style={{
               width: "100%",
