@@ -30,6 +30,36 @@ const NavBar = () => {
               <b> Upload File </b>
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/preprocess"
+              activeClassName="active "
+              className="nav-links"
+            >
+              <b> Preprocess Spectrum </b>
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/identify"
+              activeClassName="active "
+              className="nav-links"
+            >
+              <b> Identify Spectrum </b>
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/partner"
+              activeClassName="active "
+              className="nav-links"
+            >
+              <b>Partner With Us</b>
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
