@@ -1,5 +1,3 @@
-[![Build Status](https://app.travis-ci.com/sujith15/OpenSpecy_project_21.svg?branch=master)](https://app.travis-ci.com/sujith15/OpenSpecy_project_21)
-
 This project aims to create a tool for online use that can take data generated through laser spectroscopy process it for exploratory data analysis and prediction.
 
 The goal is to eventually attach an ML model to the backend of the site, as of right now the model is working independently in a google colab notebook.
