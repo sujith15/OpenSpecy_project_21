@@ -33,6 +33,16 @@ const NavBar = () => {
           <li className="nav-item">
             <NavLink
               exact
+              to="/preprocess"
+              activeClassName="active "
+              className="nav-links"
+            >
+              <b> Preprocess Spectrum </b>
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
               to="/identify"
               activeClassName="active "
               className="nav-links"
