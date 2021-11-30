@@ -123,7 +123,7 @@ const Upload = () => {
           }}
         >
           <h4 id="placeholder1">Upload some data to get started...</h4>
-          
+
           <div
             style={{
               width: "100%",
@@ -136,5 +136,4 @@ const Upload = () => {
     </div>
   );
 };
-
 export default Upload;
