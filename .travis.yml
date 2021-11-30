@@ -1,0 +1,19 @@
+language: node_js
+
+node_js:
+  - 14
+
+before_install: cd frontend-react
+
+cache: npm
+
+script:
+  - CI=false npm run build
+
+  - npm test
+
+deploy:
+
+providers: pages
+
+skip-cleanup: true

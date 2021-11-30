@@ -14,7 +14,7 @@ const Mainpage = () => {
               boxSizing: "content-box",
             }}
           >
-            <h2> Welcome</h2>
+            <h2 data-testid="header1">Welcome</h2>
             <p class="setfontsize">
               Join the hundreds of researchers from around the world who are
               part of the Open Specy community by analyzing, sharing,
@@ -167,7 +167,7 @@ const Mainpage = () => {
           backgroundColor: "rgb(220, 220, 220, 0.5)",
         }}
       >
-        <h2> Instructions</h2>
+        <h2 data-testid="header2">Instructions</h2>
         <p class="setfontsize">
           In Brief: To use the tool upload a csv, asp, jdx, spc, or spa file to
           the upload file tab. If csv, one column should be named 'wavenumber'
@@ -203,7 +203,7 @@ const Mainpage = () => {
           backgroundColor: "rgb(220, 220, 220, 0.5)",
         }}
       >
-        <h2> Download Open Data</h2>
+        <h2 data-testid="header3">Download Open Data</h2>
         <p class="setfontsize">
           Reference spectra was sourced from open access resources online, peer
           reviewed publications, and corporate donations. In the future, spectra
@@ -212,7 +212,6 @@ const Mainpage = () => {
         </p>
 
         <div>
-
           <a
             id="downloadData4"
             class="btn btn-primary"
@@ -246,7 +245,7 @@ const Mainpage = () => {
         }}
         align="justify"
       >
-        <h2>Contribute Spectra</h2>
+        <h2 data-testid="header4">Contribute Spectra</h2>
         <p class="setfontsize">
           To share spectra upload a file to the upload file tab. If you selected
           Share a copy of your spectra will be sent to the Community Data
