@@ -84,6 +84,7 @@ const Partner = () => {
               href="https://www.paypal.com/donate/?cmd=_donations&business=wincowger@gmail.com&lc=US&item_name=Donation+to+Open+Specy&no_note=0&cn=&currency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted"
               target="_blank"
               class="btn btn-primary"
+              data-testid="header5"
             >
               Donate
             </a>
