@@ -67,3 +67,14 @@
   color: yellow;
   border: 1px solid yellow;
 }
+
+.button {
+  background-color: rgb(39, 39, 39);
+  color: rgb(221, 219, 81);
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin: 0px 0px;
+  cursor: pointer;
+  margin-right: 2rem;
+}
