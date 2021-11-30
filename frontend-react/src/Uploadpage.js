@@ -3,6 +3,13 @@ import "./Uploadpage.css";
 import { useState } from "react";
 import axios from "axios";
 import Button from "@material-ui/core/Button";
+import Select from 'react-select';
+
+const options = [
+  { value: 'FTIR', label: 'FTIR' },
+  { value: 'RAMAN', label: 'RAMAN' },
+  { value: 'MISC', label: 'MISC' }
+]
 
 const Upload = () => {
   const [fileData, setFileData] = useState("");
@@ -62,7 +69,8 @@ const Upload = () => {
             required
             // value={""}
           /> */}
-
+          <Select options={options} name="FileType"/>
+            
           <Button variant="contained" component="label">
             Choose File
             <input
