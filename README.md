@@ -1,2 +1,16 @@
-This project aims to create a tool for online use that can take data generated through laser spectroscopy process it for exploritora data analysis and prediction. The description from Win Cowger, the project's sponsor, reads, 
-    "The end goal is to develop a model which can be used to accurately predict any raw unprocessed spectrum. This model will speed up identification time and allow us to rapidly expand our resources. If we use an interpretable model, we may also be able to better understand which peaks are most important for identification. Ideally, the model accuracy will be greater than 90% which is the current accuracy of our default settings. This product is ripe for publication if we manage to pull it off and could have wide implications beyond Open Specy. The model will eventually be folded into the Open Specy package as a function (as long as the model file size isn't too large) and offered as a feature in the online version of the tool."  
+This project aims to create a tool for online use that can take data generated through laser spectroscopy process it for exploritoratory data analysis and prediction.
+
+The goal is to eventually attach an ML model to the backend of the site, as of right now the model is working independently in a google colab notebook.
+Additional information on the model can be found in the read-me located in ML-model.
+The current accuracy of the model is above 50%, but the aim is to have a model above 90% accuracy.
+
+Project Lead:
+Code4Sac
+
+Contributors to this project:
+Sujith Reddy Dharmareddy
+Valen Johnson
+Patrick Raogninirina
+Ruben Daniel Montemayor
+Lingwei Kong
+Tommy Tram
