@@ -63,8 +63,6 @@ const Upload = () => {
             // value={""}
           /> */}
 
-          <Select options={options} />
-
           <Button variant="contained" component="label">
             Choose File
             <input
