@@ -13,7 +13,8 @@ const Preprocess = () => {
           style={{
             padding: "1rem 1rem 1rem",
             border: "double #f7f7f9",
-            backgroundColor: "rgb(220, 220, 220, 0.5)",
+            backgroundColor: "rgb(0, 0, 0, 0.8)",
+            color: "lightblue",
           }}
         >
           <br></br>
@@ -90,7 +91,7 @@ const Preprocess = () => {
             <div
               style={{
                 border: "solid black",
-                backgroundColor: "white",
+                backgroundColor: "gray",
                 padding: "2rem",
                 width: "80%",
                 textAlign: "center",
