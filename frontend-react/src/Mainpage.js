@@ -3,14 +3,19 @@ import "./Mainpage.css";
 
 const Mainpage = () => {
   return (
-    <div>
+    <div
+      style ={{
+        backgroundColor: "rgb(0, 0, 0, 0.9)",
+        color: "lightblue",
+      }}
+    >
       <div>
         <div>
           <div
             style={{
               padding: "1rem 1rem 1rem",
               border: "double #f7f7f9",
-              backgroundColor: "rgb(220, 220, 220, 0.5)",
+              backgroundColor: "rgb(220, 220, 220, 0.1)",
               boxSizing: "content-box",
             }}
           >
@@ -140,7 +145,7 @@ const Mainpage = () => {
           style={{
             padding: "1rem 1rem 1rem",
             border: "double #f7f7f9",
-            backgroundColor: "rgb(220, 220  , 220, 0.5)",
+            backgroundColor: "rgb(220, 220  , 220, 0.1)",
           }}
           align="justify"
         >
@@ -164,7 +169,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
       >
         <h2 data-testid="header2">Instructions</h2>
@@ -200,7 +205,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
       >
         <h2 data-testid="header3">Download Open Data</h2>
@@ -241,7 +246,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
         align="justify"
       >
@@ -272,7 +277,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
         align="justify"
       >
@@ -303,7 +308,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
         align="justify"
       >
@@ -329,7 +334,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
         align="justify"
       >
@@ -346,7 +351,7 @@ const Mainpage = () => {
         style={{
           padding: "1rem 1rem 1rem",
           border: "double #f7f7f9",
-          backgroundColor: "rgb(220, 220, 220, 0.5)",
+          backgroundColor: "rgb(220, 220, 220, 0.1)",
         }}
         align="justify"
       >
