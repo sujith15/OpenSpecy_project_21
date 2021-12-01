@@ -20,12 +20,12 @@
 }
 
 .nav-logo {
-  color: white;
+  color: rgb(86, 142, 247);
   margin-left: 20px;
   text-decoration: none;
   font-size: 2.5rem;
   flex-grow: 1;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px rgb(161, 1, 148);
   max-width: fit-content;
 }
 
@@ -60,10 +60,10 @@
 
 .nav-item:hover :after {
   width: 100%;
-  background: yellow;
+  background: blue;
 }
 
 .nav-item .active {
-  color: yellow;
-  border: 1px solid yellow;
+  color: lightblue;
+  border: 1px solid lightblue;
 }
