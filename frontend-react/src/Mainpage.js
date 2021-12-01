@@ -35,7 +35,7 @@ const Mainpage = () => {
                   borderRadius: "50px",
                 }}
               >
-                <h4>Revolutionizing (&gt;100,000$)</h4>
+                <h4>Revolutionizing (&gt;$100,000)</h4>
               </div>
               <br></br>
               <div
@@ -46,7 +46,7 @@ const Mainpage = () => {
                   borderRadius: "50px",
                 }}
               >
-                <h4>Thriving (10,000–100,000$)</h4>
+                <h4>Thriving ($10,000–$100,000)</h4>
                 <div>
                   <img
                     src="Moorelogo.png"
@@ -66,7 +66,7 @@ const Mainpage = () => {
                   borderRadius: "50px",
                 }}
               >
-                <h4>Maintaining (1,000–10,000$)</h4>
+                <h4>Maintaining ($1,000–$10,000)</h4>
                 <img
                   src="UCR.png"
                   style={{ padding: "1rem" }}
@@ -117,7 +117,7 @@ const Mainpage = () => {
                   borderRadius: "50px",
                 }}
               >
-                <h4>Supporting (100–1,000$)</h4>
+                <h4>Supporting ($100–$1,000)</h4>
                 <h5>Jennifer Gadd</h5>
               </div>
               <br></br>
@@ -129,7 +129,7 @@ const Mainpage = () => {
                   borderRadius: "50px",
                 }}
               >
-                <h4>Saving (&lt;100$)</h4>
+                <h4>Saving (&lt;$100)</h4>
                 <h6>
                   Susanne Brander (Oregon State University), Jeremy Conkle
                   (TEXAS A&amp;M UNIVERSITY CORPUS CHRISTI)
@@ -174,8 +174,8 @@ const Mainpage = () => {
       >
         <h2 data-testid="header2">Instructions</h2>
         <p class="setfontsize">
-          In Brief: To use the tool upload a csv, asp, jdx, spc, or spa file to
-          the upload file tab. If csv, one column should be named 'wavenumber'
+          In Brief: To use the tool upload a .csv, .asp, .jdx, .spc, or .spa file to
+          the upload file tab. If .csv, one column should be named 'wavenumber'
           (in units of 1/cm) and another named 'intensity'. You can smooth your
           data using an SG filter, baseline correct your data using the
           polynomial order of iModPolyFit, and restrict the wavelength range for
