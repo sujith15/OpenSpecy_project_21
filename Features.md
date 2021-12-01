@@ -1,12 +1,27 @@
-Features for Sprint 1:
--front page with information from OpenSpet template website
--upload file functionality (retrieve file from user system and post to backend server)
--backend with get function for possible ML model
+## Features for Sprint 1:
 
-Features for Sprint 2:
--added file processing to make sure file size if correct and option to select data type for server side processing
--added page for identifying spectrum type
--added "Partner With Us" page under menu option to attract potention donors
+#### Feature 1:
 
-final feature (special case)
-based on the guidance of the Code4Sac team from california, we created slightly trained a ML model which will be the main functionality of the system. we cannot test using this using travis ci in tandem with our main program, as the model uses resources directly from google colab. the model has been trained to over 50% accuracy initially.
+Front page with information from OpenSpecy template website
+
+#### Feature 2:
+
+Upload file functionality (retrieve file from user system and post to backend server)
+
+#### Feature 3:
+
+Backend with get function for possible ML model
+
+## Features for Sprint 2:
+
+#### Feature 4:
+
+Added file processing to make sure file size if correct, option to select data type for server side processing and preprocess spectrum page.
+
+#### Feature 5:
+
+Added page for identifying spectrum type and "Partner With Us" page under menu option to attract potential donors
+
+#### Feature 6:
+
+Based on the guidance of the Code4Sac team from california, we created slightly trained a ML model which will be the main functionality of the system. The ML model was built using tensorflow, keras and scikit learn frameworks. The model has been trained to over 50% accuracy initially, but the aim is to improve it's accuracy further.
